@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp3
 {
-    internal class Block2 : Cell
+    internal class Block_2 : Cell
     {
-        public Block2()
+        public Block_2() 
         {
             Button.Text = "2";
-            Button.BackColor = Color.Gray;
+            Button.BackColor = Color.Green;
         }
-      
+            
     }
 }
