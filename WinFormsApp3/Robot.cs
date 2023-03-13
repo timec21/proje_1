@@ -213,7 +213,7 @@ namespace WinFormsApp3
 
 
 
-                await Task.Delay(0);
+                await Task.Delay(delay/2);
             }
 
             time.Text = "Süre: " + pathTime + " sn";
